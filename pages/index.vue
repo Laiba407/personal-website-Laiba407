@@ -529,6 +529,7 @@ html,body {
 	align-items:center;
 }
 
+
 .title {
 	/*font-family: 'Dawning of a New Day', cursive;*/
 	font-size:30pt;
@@ -538,7 +539,6 @@ html,body {
 .project-title {
 font-size:16pt
 }
-
 .projects {
 	margin-bottom:50px;
 	margin-top:25px;
