@@ -2,16 +2,20 @@
 
 <template>
 
-      <section class=" bg-fixed bg-cover  bg-center  "  style="background-image: url('/background_2.jpg')">
+      <section class=" bg-fixed bg-cover  bg-center w-100"  style="background-image: url('/background_2.jpg')">
             <section class="text-white body-font h-screen">
               <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
 
                 <div class="text-center lg:w-2/3 w-full">
                   <h1 class="title-font sm:text-5xl text-5xl mb-4 font-medium text-white"><br><br>Salaam, I'm Laiba Gul</h1>
-                  <h3 class="title-font sm:text-3xl text-4xl mb-8 leading-relaxed text-blue-500">A Software Engineer and Graphic Designer</h3>
+                  <h3 class="title-font sm:text-3xl text-4xl mb-8 leading-relaxed text-blue-500 animate-pulse">A Software Engineer and Graphic Designer</h3>
                 </div>
               </div>
+
+       
+                
             </section>
+            
 
           <!-------- intro---------->
           <section class="text-white" >
@@ -21,25 +25,25 @@
               </div>
               <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                 <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white"></h1>
-                <p class="mb-8 leading-relaxed">I am an energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake, or situation that I am presented with. As a university student I have participated in my many events and that has led me to gain some experience in management, I am excellent in working with others to achieve certain objective on time and with excellence.</p>
+                <p class="mb-8 leading-relaxed">I am an energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake, or situation that I am presented with. During my university years I have participated in my many events that has led me to gain some experience in management, I am excellent in working with others to achieve certain objective on time and with excellence.</p>
 
                 <div class="text-sm mt-2 text-blue-500 mb-8 w-full font-medium">
                   <section class="bar-graph bar-graph-horizontal bar-graph-one">
                     <div class="bar-one">
                       <span class="year">Management Skills </span>
-                      <div class="bar" data-percentage="75.6%"></div>
+                      <div class="bar" data-percentage="90.6%"></div>
                     </div>
                     <div class="bar-two">
-                      <span class="year">Social Skills </span>
-                      <div class="bar" data-percentage="89%"></div>
+                      <span class="year">Delegation </span>
+                      <div class="bar" data-percentage="96%"></div>
                     </div>
                     <div class="bar-three">
                       <span class="year">Problem Solving </span>
-                      <div class="bar" data-percentage="82%"></div>
+                      <div class="bar" data-percentage="95%"></div>
                     </div>
                     <div class="bar-four">
-                      <span class="year">Delegation </span>
-                      <div class="bar" data-percentage="80%"></div>
+                      <span class="year">Social Skills </span>
+                      <div class="bar" data-percentage="92%"></div>
                     </div>
                   </section>
                 </div>
@@ -94,16 +98,25 @@
                   <div class="relative w-full  bg-gray-200 rounded">
                     <div style="width: 63%" class="absolute top-0 h-5 rounded shim-blue text-center text-sm text-blue-900 font-semibold">Python</div>
                   </div>
-                </div>
+
+                  <div class="relative w-full  bg-gray-200 rounded">
+                    <div style="width: 80%" class="absolute top-0 h-5 rounded shim-blue text-center text-sm text-blue-900 font-semibold">Vue.Js</div>
+                  </div>
+                
+             
+                <div class="relative w-full  bg-gray-200 rounded">
+                    <div style="width: 90%" class="absolute top-0 h-5 rounded shim-blue text-center text-sm text-blue-900 font-semibold">Tailwind</div>
+                  </div>
+                  </div>
+
               </div>
                 <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                 <br><br><br><br><br>
                   <h2 class="title-font sm:text-3xl text-2xl mb-4 font-medium text-white">Whats Happening?</h2>
-                  <p class="mb-8 leading-relaxed">At present im in my final year of Engineering. My Final Project is Covid-19 Detection Through X-rays using Deep Learning techniques . While doing bachelors in Computer Software I got familiar with alot of emerging technologies but amoung them Cyber Security has fascinated me the most and im looking forward to pursue my career in it.
-                  Apart From studies i participate alot in co-curricular activities and currently working as a president of UETM's Debating society. Moreover i also work volunteerily for Helping Hands a Non Government Organization.
+                  <p class="mb-8 leading-relaxed">I recently graduated from the University of Engineering and Technology Peshawar and did major in Computer Software Engineering. Right now I am looking for corporate world exposure. I am an energetic and imaginative young engineer who can work alongside other talented IT professionals in creating software to the very highest standards. During my internships I got highly aware of industry issues and trends, particularly regarding accessibility, usability, emerging technologies, and open-source CMS. I have always paid due attention to the smallest details in any project that I handled and that is the reason for my success so far.
                   </p>
 
-                  <p class="text-sm mt-2 text-blue-500 mb-8 w-full font-medium">I'm a creative Graphic Designer with extensive experience in multimedia, marketing and print design. My work can be seen in the my portfolio section</p>
+                  <p class="text-sm mt-2 text-blue-500 mb-8 w-full font-medium">"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle".<p class="text-sm text-blue-500 mb-8 w-full font-medium -mt-5 italic">~Steve Jobs</p></p>
                 </div>
             </div>
           </section>
@@ -246,22 +259,59 @@
               </div>
             </div>
           </section>
+          <!------------------------------------------ Gallery -------->
+
+
+         
+
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="flex w-full mb-20 flex-wrap">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font text-blue-600 lg:w-1/3 lg:mb-0 mb-4">Online Restaurant Website</h1>
+      <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-blue-100">I made this website as my semester project for a restaurant where users can place their order online, get food delivered to the provided address and reserve a table online.</p>
+    </div>
+    <div class="flex flex-wrap md:-m-2 -m-1">
+      <div class="flex flex-wrap w-1/2">
+        <div class="md:p-2 p-1 w-1/2 ">
+          <img alt="gallery" class=" w-full object-cover h-full object-center block" src="/1.1.png">
+        </div>
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="/1.9.png">
+        </div>
+        <div class="md:p-2 p-1 w-full">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="/1.2.png">
+        </div>
+      </div>
+      <div class="flex flex-wrap w-1/2">
+        <div class="md:p-2 p-1 w-full">
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src="/1.6.png">
+        </div>
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="/1.4.png">
+        </div>
+        <div class="md:p-2 p-1 w-1/2">
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src="/1.5.png">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+GitHub
 
 
           <!--------------------------- portfolio ------------------------>
 
           <div class="py-24 " id="portfolio"  >
-            <div id="app">
+            <div id="app-2">
               <div class="title-container text-blue-600">
                 <div>
                   <h3 class="title ">
-                    My Portfolio
+                    Awards and Achievements 
                   </h3>
                 </div>
                 <div class="filters ">
-                  <span class="filter text-white" v-bind:class="{ active: currentFilter === 'ALL' }" v-on:click="setFilter('ALL')">ALL</span>
-                  <span class="filter text-white" v-bind:class="{ active: currentFilter === 'ART' }" v-on:click="setFilter('PHOTOGRAPHY')">PHOTOGRAPHY</span>
-                  <span class="filter text-white" v-bind:class="{ active: currentFilter === 'WORKSHOPS' }" v-on:click="setFilter('GRAPHIC_DESIGNER')">GRAPHIC DESIGNER</span>
+                  <span class="filter text-white" v-bind:class="{ active: currentFilter === 'ALL' }"></span>
+                  
 
                 </div>
               </div>
@@ -275,9 +325,50 @@
 
                   </div>
                 </div>
+                
               </transition-group>
             </div>
           </div>
+            
+          <!---------------------Testimonial ---------------------->
+
+                            <section class="text-blue-600 body-font pt-20" id="Testimonial"> 
+                            <div class="text-center text-5xl">Testimonial</div>
+                    <div class="container px-5 py-24 mx-auto">
+                    
+                      <div class="flex flex-wrap -m-4" >
+                        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                          <div class="h-full text-center "> 
+                            <img alt="testimonial" class="w-24 h-24 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/1.jpg">
+                            <p class="leading-relaxed text-blue-100">Laiba Gul is a consistent honor student who performs her task with a positive attitude. Other instructors and professors in the same department talk highly of her performance. she is able to establish camaraderie and wonderful rapport with people of all ages and has excellent written and verbal communication skills.</p>
+                            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                            <h2 class="text-blue-700 font-medium title-font tracking-wider text-sm">Sadaqat Jan</h2>
+                            <p class="text-gray-500">Dean of University of Engineering and Technology Mardan</p>
+                          </div>
+                        </div>
+                        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                          <div class="h-full text-center">
+                            <img alt="testimonial" class="w-24 h-24 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/2.jpg">
+                            <p class="leading-relaxed text-blue-100">Laiba has a passion for engineering and leadership from the way she expresses herself, and she backs it up with commendable levels of perseverance and hard work. During her apprenticeship, she successfully learned new web technologies, and she worked with me to set up Gitlab epics, issue labels, and boards.</p>
+                            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                            <h2 class="text-blue-700 font-medium title-font tracking-wider text-sm">Arsala Grey</h2>
+                            <p class="text-gray-500">CEO Grey Software</p>
+                          </div>
+                        </div>
+                        <div class="lg:w-1/3 lg:mb-0 p-4">
+                          <div class="h-full text-center">
+                            <img alt="testimonial" class="w-24 h-24 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="/3.jpg">
+                            <p class="leading-relaxed text-blue-100">Miss Laiba Gul has worked with 360 Technologies as a technical internee in developement department. She has always been performing her duties in a professional and meticulous. Her Performance has been extremely satisfactory during the internship period in the company.</p>
+                            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-6 mb-4"></span>
+                            <h2 class="text-blue-700 font-medium title-font tracking-wider text-sm">Muhammad Ashar</h2>
+                            <p class="text-gray-500">360 Technologies</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+
                       <!------------------------Contact---------------------->
 
             <section class="text-white body-font relative" id="Contact">
@@ -356,29 +447,42 @@
                 </div>
               </div>
             </section>
+              <!------------------------->
+              
+          
+          
+
+          <!-------------------------------->
+
+          
+
+
         </section>
 
+
+
+      
 </template>
 
 
 <script>
-export default {
+ 
 
-name: '#app',
+export default {
+ 
+
+  /***************************/ 
+
+ name: 'app-2',
 	data:function() {
     return{
 		currentFilter: 'ALL',
 		projects: [
-			{title: "Artwork", image: "/p1.jpg", category: 'PHOTOGRAPHY'},
-      {title: "Artwork", image: "/p2.jpg", category: 'PHOTOGRAPHY'},
-      {title: "Artwork", image: "/p3.jpg", category: 'PHOTOGRAPHY'},
-      {title: "Artwork", image: "/p4.jpg", category: 'PHOTOGRAPHY'},
-      {title: "Artwork", image: "/p5.jpg", category: 'PHOTOGRAPHY'},
-			{title: "Acrillic", image: "/1.jpg", category: 'GRAPHIC_DESIGNER'},
-
-			{title: "Pen", image: "/2.jpg", category: 'GRAPHIC_DESIGNER'},
-			{title: "Inking", image: "/3.png", category: 'GRAPHIC_DESIGNER'},
-      {title: "Inking", image: "/4.jpg", category: 'GRAPHIC_DESIGNER'},
+			{title: "Artwork", image: "/a.jpg", category: 'PHOTOGRAPHY'},
+      {title: "Artwork", image: "/b.jpg", category: 'PHOTOGRAPHY'},
+      {title: "Artwork", image: "/c.jpg", category: 'PHOTOGRAPHY'},
+      {title: "Artwork", image: "/d.jpg", category: 'PHOTOGRAPHY'}
+    
 		]
     }
 
@@ -389,22 +493,30 @@ name: '#app',
 		}
             },
 
-        name:'#app-1',
-
+         name:'app-1',
                 methods:{
                     hello:function( event)
                     {
                         alert('Your message has been sent. Thank you!');
                     }
-                }
+                },
+
+     /*****************Name_transition*******************/
 
 
-}
+
+
+};
 
 
 </script>
 
+
+
+
 <style>
+
+<!-------------------------------->
 
 html,body {
 	margin:0;
@@ -427,22 +539,6 @@ html,body {
 font-size:16pt
 }
 
-.filter {
-	font-family:arial;
-	padding: 6px 6px;
-	cursor:pointer;
-	border-radius: 6px;
-	transition: all 0.35s;
-}
-
-.filter.active {
-	box-shadow:0px 1px 3px 0px #00000026;
-}
-
-.filter:hover {
-	background:#3B82F6;
-}
-
 .projects {
 	margin-bottom:50px;
 	margin-top:25px;
@@ -454,26 +550,27 @@ font-size:16pt
 .projects-enter {
 	transform: scale(0.5) translatey(-80px);
 	opacity:0;
+  
 }
 
 .projects-leave-to{
 	transform: translatey(30px);
 	opacity:0;
+  /*z-index: -1; */
 }
 
 .projects-leave-active {
 	position: absolute;
-	z-index:-1;
+	
 }
 
 
 
 .project {
-	transition: all .35s ease-in-out;
 	margin:10px;
 	box-shadow:0px 2px 8px lightgrey;
 	border-radius:3px;
-	width:180px;
+	width:280px;
 	height:200px;
 	display:flex;
 	flex-direction:column;
@@ -484,9 +581,8 @@ font-size:16pt
 	position:relative;
 }
 
-
 .project-image {
-	width:100%;
+	width:280px;
 	height:200px;
 	border-bottom-left-radius:5px;
 	border-bottom-right-radius:5px;
@@ -534,16 +630,16 @@ font-size:16pt
 .zoom {
 
   transition: transform .2s;
-  width: 200px;
+  width: 280px;
   height: 200px;
   margin: 0 auto;
 
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5);
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2);
 }
 
 /*     horizontal bars */

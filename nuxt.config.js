@@ -1,4 +1,5 @@
 export default {
+  
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -21,6 +22,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+     //{src: '~plugins/vue-collage-slideshow', ssr: false}  // edited
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -52,5 +54,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+
+
 }
+
+

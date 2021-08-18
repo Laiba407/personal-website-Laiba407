@@ -9,7 +9,8 @@
     <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
       <a class="mr-5 hover:text-blue-500" href="#Contact">Contact</a>
       <a class="mr-5 hover:text-blue-500" href="#Programming_Skills">Skills</a>
-      <a class="mr-5 hover:text-blue-500" href="#portfolio">Portfolio</a>
+      <a class="mr-5 hover:text-blue-500" href="#portfolio">Awards</a>
+      <a class="mr-5 hover:text-blue-500" href="#Testimonial">Testimonial</a>
     </nav>
 
   </div>
